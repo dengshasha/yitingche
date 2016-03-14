@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <!-- 引入 jQuery Mobile 样式 -->
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/pc-childrenPage.css">
+	<title>我的车辆</title>
+</head>
+<body>
+<div data-role="page" class="mc-page">
+	<div data-role="main" class="ui-content">
+		<img src="../images/mycar-icon.png" alt="" width="90px" height="90px">
+		<p>暂无车辆信息</p>
+		<a href="#dialog"><button class="button">添加</button></a>
+		<p style="color:red">最多可绑定5个车牌!</p>
+	</div>
+</div>
+<!--start dialog-->
+<div data-role="page" data-dialog="true" id="dialog" class="mc-dialog">
+	<div data-role="header">
+		<p>添加绑定车牌</p>
+	</div>
+	<div data-role="main" class="ui-content">
+		<form action="" method="post" id="mycar-form" class="mycar-form">
+			<label for="mc-licensePlate" style="text-align:left">输入绑定车牌：</label>
+			<input type="text" name="mc-licensePlate" id="mc-licensePlate" placeholder="如：川A12345">	
+			<div class="mc-submit">
+				<input type="submit" value="确定" data-role="none">
+			</div>
+			<div class="mc-reset">
+				<input type="reset" value="取消"data-role="none">
+			</div>
+	</form>
+	</div>
+</div>
+<!--end dialog-->
+</body>
+<!-- 引入 jQuery 库 -->
+	<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- 引入 jQuery Mobile 库 -->
+	<script  src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>	
+</html>

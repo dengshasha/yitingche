@@ -1,0 +1,247 @@
+/*该样式文件包括个人中心，我要缴费，我要预定三个页面的样式*/
+body {
+  font-size: 62.5%;
+  background-color: #fff;
+}
+a {
+  text-decoration: none;
+  font-weight: 300 !important;
+}
+/*start header*/
+header {
+  width: 100%;
+  height: 120px;
+  background: url(../images/pc-head.png);
+  border-bottom: 2px solid #016938;
+}
+header .headPortrait {
+  height: 120px;
+  float: left;
+  margin: 10px 10px 0 10px;
+}
+header .headPortrait img {
+  border-radius: 40px;
+  margin-top: 10px;
+}
+header .userName {
+  float: left;
+  height: 120px;
+}
+header .userName p {
+  font-size: 1.6em;
+  line-height: 80px;
+  color: #fff;
+  letter-spacing: 1px;
+}
+/*end header*/
+/*start content个人中心*/
+.content {
+  width: 100%;
+  height: 400px;
+}
+.content ul {
+  width: 99%;
+  height: 100%;
+  padding: 0;
+}
+.content ul a {
+  color: #000;
+}
+.content ul a:hover {
+  color: #000;
+}
+.content ul li {
+  width: 98%;
+  height: 60px;
+  border-bottom: 1px solid #ccc;
+  list-style: none;
+  padding-left: 10px;
+}
+.content ul li .content-pic {
+  float: left;
+  width: 35px;
+  height: 100%;
+  text-align: center;
+}
+.content ul li .content-pic img {
+  padding-top: 15px;
+}
+.content ul li span {
+  font-size: 1.6em;
+  line-height: 60px;
+  padding-left: 5px;
+  color: #000;
+}
+.content ul li:hover {
+  background: #eee;
+}
+/*end content*/
+/*start 我要预定*/
+.reserve {
+  width: 100%;
+  /*预定须知按钮*/
+}
+.reserve form {
+  width: 95%;
+  margin: 0 auto;
+  /*设置确定按钮*/
+  /*ui-input-btn是确定按钮的类名*/
+}
+.reserve form fieldset.ui-field-contain {
+  padding-right: 30px;
+  margin-bottom: 30px;
+}
+.reserve form .p-icon {
+  height: 65px;
+  float: left;
+}
+.reserve form .p-words {
+  width: 70px;
+  float: left;
+  height: 65px;
+  padding-left: 5px;
+}
+.reserve form .p-words p {
+  font-size: 1em;
+  color: #016938;
+  letter-spacing: 1px;
+}
+.reserve form .ui-btn.ui-input-btn {
+  margin: 0.8em auto;
+  width: 80%;
+  border-radius: 0.8em;
+}
+.reserve form .ui-input-btn input {
+  opacity: 1;
+  text-indent: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+.reserve form [type="submit"] {
+  background: #008000;
+  letter-spacing: 2px;
+  text-shadow: none;
+  color: #fff;
+  font-size: 18px;
+}
+.reserve form [type="submit"]:hover {
+  background: #016938;
+  color: #fff;
+  text-shadow: none;
+}
+.reserve div#reserve-button {
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+}
+/*end reserve*/
+/*设置我要预定页面的预定须知对话框*/
+#reserve-info .ui-header {
+  height: 40px;
+}
+#reserve-info .ui-content {
+  margin: 0 0.8em 0.8em 0.8em;
+  font-size: 1.6em;
+}
+#reserve-info .ui-overlay-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+}
+#reserve-info .ui-dialog-contain {
+  max-width: 300px;
+  margin-top: 20%;
+}
+/*start pay*/
+.pay {
+  width: 100%;
+}
+.pay form {
+  width: 100%;
+  /*设置两个按钮*/
+}
+.pay form fieldset.ui-field-contain {
+  width: 70%;
+  margin: 20px auto;
+}
+.pay form .prompt {
+  width: 100%;
+}
+.pay form .prompt .p-icon {
+  height: 65px;
+  float: left;
+}
+.pay form .prompt .p-words {
+  float: left;
+  height: 65px;
+  padding-left: 5px;
+}
+.pay form .prompt .p-words p {
+  font-size: 1.6em;
+  line-height: 28px;
+  color: #016938;
+  letter-spacing: 1px;
+}
+.pay form .pay-submit,
+.pay form .pay-button {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.pay form .pay-submit [type="submit"],
+.pay form .pay-button [type="submit"],
+.pay form .pay-submit button,
+.pay form .pay-button button {
+  width: 70%;
+  padding: 0.6em 0;
+  background: #008000;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 1.6em;
+  border: 0;
+  border-radius: 1.2em;
+  margin: 1.5em auto;
+}
+.pay form .pay-submit [type="submit"]:hover,
+.pay form .pay-button [type="submit"]:hover,
+.pay form .pay-submit button:hover,
+.pay form .pay-button button:hover {
+  background: #016938;
+  color: #fff;
+  border: 0;
+}
+/*end pay*/
+/*start footer*/
+.ui-header,
+.ui-footer {
+  border-width: 0;
+}
+div.ui-footer.ui-bar-inherit {
+  /*消除底部导航文字的阴影*/
+  text-shadow: none;
+}
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 48px;
+  background: #fff;
+  border-top: 2px solid #ccc;
+}
+footer .f-menu {
+  float: left;
+  width: 24%;
+  height: 100%;
+  text-align: center;
+}
+footer .f-menu .f-m-picture {
+  height: 28px;
+  padding-top: 5px;
+}
+footer .f-menu .p-center img {
+  padding-top: 2px;
+}
+footer .f-menu p {
+  font-size: 1.2em;
+  margin: 0;
+  color: #6c7a89;
+}
+/*end footer*/

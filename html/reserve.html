@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/personalCenter1.css">
+	<title>我要预定</title>
+</head>
+<body>
+<!--start page我要预定-->
+<div data-role="page" id="reserve">
+	<!--start main-->
+	<div data-role="main" class="reserve">
+		<form method="post" action="" id="chooseForm" class="ui-content">
+		    <fieldset data-role="fieldcontain" data-native-menu="false" class="reserve-fie">
+	    		<label for="reserve-sel">
+	    			<div class="p-icon">
+	    				<img src="../images/reserve-p.png" alt="" width="50px" height="50px">
+	    			</div>
+	    			<div class="p-words">
+	    				<p>停车场：</p>
+	    			</div>
+	    		</label>
+			        <select name="reserve-sel" id="reserve-sel">
+			        	<option value="">川A345</option>
+			        	<option value="">川A256</option>
+			        	<option value="">川A12543</option>
+			        </select>
+		    </fieldset>
+		    <fieldset data-role="fieldcontain" data-native-menu="false">
+	    		<label for="reserve-sel">
+	    			<div class="p-icon">
+	    				<img src="../images/pay-icon.png" alt="" width="50px" height="50px">
+	    			</div>
+	    			<div class="p-words">
+	    				<p>车牌：</p>
+	    			</div>
+	    		</label>
+			        <select name="reserve-sel" id="reserve-sel">
+			        	<option value="">川A345</option>
+			        	<option value="">川A256</option>
+			        	<option value="">川A12543</option>
+			        </select>
+		    </fieldset>
+		    <input type="submit" value="确定">
+		</form>
+		<div id="reserve-button">
+			<a href="#reserve-info">预定须知</a>
+		</div>
+		</div>
+	<!--end main-->
+	<!--start footer-->
+	<div data-role="footer">
+		<footer>
+			<div class="f-menu">
+			<a href="#parking" data-transition="none">
+				<div class="f-m-picture">
+					<img src="../images/footer-park2.png" alt="" width="18px" height="25px">
+				</div>
+				<p>我要停车</p>
+			</a>
+			</div>
+			<div class="f-menu">
+			<a href="#reserve" data-transition="none">
+				<div class="f-m-picture">
+					<img src="../images/footer-reserve1.png" alt="" width="23px" height="23px">
+				</div>
+				<p style="color:#016938">我要预定</p>
+			</a>
+			</div>
+			<div class="f-menu">
+			<a href="pay.html" data-transition="none">
+				<div class="f-m-picture">
+					<img src="../images/footer-coin2.png" alt="" width="23px" height="23px">
+				</div>
+				<p>我要缴费</p>
+			</a>
+			</div>
+			<div class="f-menu">
+			<a href="personalCenter.html" data-transition="none">
+				<div class="f-m-picture p-center">
+					<img src="../images/footer-user2.png" alt="" width="28px" height="20px" >
+				</div>
+				<p>个人中心</p>
+			</a>
+			</div>
+		</footer>
+	</div>
+	<!--end footer-->
+</div>
+<!--end page我要预定-->
+<div data-role="page" data-dialog="true" id="reserve-info">
+	<div data-role="header"></div>
+	<div data-role="main" class="ui-content">
+		<p>1.每个用户只能预定一个停车位</p>
+		<p>2.请在预定生效后30分钟内到达停车场</p>
+		<p>3.预定功能为免费服务，若因不可抗因素造成预定车位不可用，易停车公司不承担任何责任</p>
+	</div>
+</div>
+</body>
+<!-- 引入 jQuery 库 -->
+<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- 引入 jQuery Mobile 库 -->
+<script  src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</html>

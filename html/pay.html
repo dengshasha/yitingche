@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/personalCenter1.css">
+	<title>我要缴费</title>
+</head>
+<body>
+<!--start page我要缴费-->
+<div data-role="page" id="pay">
+	<!--start main-->
+	<div data-role="main" class="ui-content">
+		<div class="pay">	
+			<form method="post" action="" id="pay-form">
+				<div class="prompt">
+					<div class="p-icon">
+						<img src="../images/pay-icon.png" alt="" width="60px" height="60px">
+					</div>
+					<div class="p-words">
+						<p>付费车牌：</p>
+					</div>
+				</div>
+			    <fieldset data-role="fieldcontain" data-native-menu="false" class="pay-field">
+			        <select name="" id="#">
+			        	<option value="">川A345</option>
+			        	<option value="">川A256</option>
+			        	<option value="">川A12543</option>
+			        </select>
+			    </fieldset>
+			    	<div class="pay-submit">
+			    		<input type="submit" value="确定" data-role="none">
+			    	</div>
+			    	<div class="pay-button">
+			    		<a href="#"><button  data-role="none">找人代付</button></a>
+			    	</div>
+			    	
+			</form>
+		</div>
+	</div>
+	<!--end main-->
+	<!--start footer-->
+	<div data-role="footer">
+		<footer>
+			
+			<div class="f-menu">
+			<a href="#parking" data-transition="none">
+				<div class="f-m-picture">
+					<img src="../images/footer-park2.png" alt="" width="18px" height="25px">
+				</div>
+				<p>我要停车</p>
+			</a>
+			</div>
+			<div class="f-menu">
+			<a href="reserve.html" data-transition="none">
+				<div class="f-m-picture">
+					<img src="../images/footer-reserve2.png" alt="" width="23px" height="23px">
+				</div>
+				<p>我要预定</p>
+			</a>
+			</div>
+			<div class="f-menu">
+			<a href="#pay" data-transition="none">
+				<div class="f-m-picture">
+					<img src="../images/footer-coin1.png" alt="" width="23px" height="23px">
+				</div>
+				<p style="color:#016938">我要缴费</p>
+			</a>
+			</div>
+			<div class="f-menu">
+			<a href="personalCenter.html" data-transition="none">
+				<div class="f-m-picture p-center">
+					<img src="../images/footer-user2.png" alt="" width="28px" height="20px" >
+				</div>
+				<p>个人中心</p>
+			</a>
+			</div>
+		</footer>
+	</div>
+	<!--end footer-->
+</div>
+<!--end page我要缴费-->
+</body>
+<!-- 引入 jQuery 库 -->
+<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- 引入 jQuery Mobile 库 -->
+<script  src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+</html>

@@ -1,0 +1,156 @@
+@page-margin:10px;
+@font-letterSpaceing:1px;
+@page-color:#016938;
+@light-green:#008000;
+@color-gray:#6c7a89;
+body{
+	font-size: 62.5%;
+}
+a{
+	text-decoration: none;
+}
+.cp-page,.mc-page{
+	width: 100%;
+	height: auto;
+	text-align: center;
+	img{
+		margin-top: 2.8em;
+	}
+	p{
+		font-size: 1.6em;
+	}
+	/*设置我的停车券页面的使用规则文字样式*/
+	p.pt-rules-p{
+		text-align: left;
+		color: @page-color;
+		font-size: 1.8em;
+	}
+	p.pt-words{
+		text-align: left;
+	}
+	.ui-btn.button{
+		width: 80%;
+		margin: 0.8em auto;
+		background:@light-green;
+		letter-spacing: 2px;
+		text-shadow:none;
+		color: #fff;
+		font-size: 18px;
+		font-weight: 300;
+		border-radius: 0.8em;
+	}
+	.ui-btn.button:hover{
+		background:@page-color;
+		color: #fff;
+		text-shadow:none;
+	}
+}
+/*设置对话框常用停车场，我的车辆*/
+.ui-dialog-contain{
+	max-width: 300px;
+	margin-top: 20%;
+}
+.cp-dialog,.mc-dialog{
+	.ui-header{
+		height: 45px;
+		text-align: center;
+		p{
+			font-size: 1.6em;
+			margin: 0;
+			line-height: 45px;
+			font-weight: 300;
+		}
+	}
+	span.choose{
+		font-size: 1.6em;
+		/*设置我的车辆页面的弹出框的表单的文本框*/
+		.ui-input-text{
+			width: 70%;
+			margin: 20px auto;
+		}
+		[type="text"]{
+			font-size: 1.6em;
+			
+		}
+	}
+	/*设置我的车辆页面的表单*/
+	form.mycar-form,.cp-form{
+		width: 100%;
+		margin: 10px auto;
+		text-align: center;
+		/*设置选项框的宽度*/
+		.ui-input-text{
+			width: 70%;
+			margin: 0 auto;
+			font-size: 1.6em;
+		}
+		.ui-select{
+			width: 70%;
+			margin: 20px auto;
+		}
+		.ui-shadow{
+			box-shadow: none;
+		}
+		/*设置选项框里的文字*/
+		.ui-btn,lable.ui-btn{
+			font-weight: 300;
+		}
+		/*设置两个按钮*/
+		.mc-submit,.mc-reset,.cp-submit,.cp-reset{
+			float: left;
+			width: 50%;
+			text-align: center;
+			[type="submit"],[type="reset"]{
+				width: 70%;
+				padding: 0.6em 0;
+				background:@light-green;
+				letter-spacing: 2px;
+				color: #fff;
+				font-size: 1.6em;
+				border: 0;
+				border-radius: 1.2em;
+				margin: 1.5em auto;
+			}
+			[type="submit"]:hover,[type="reset"]:hover{
+				background:@page-color;
+				color: #fff;
+				border:0;
+			}
+		}
+	}
+}
+/*我的预定*/
+.myreserve{
+	width: 98%;
+	.p-icon{
+		height:65px;
+		width: 15%;
+		float: left;
+		margin-bottom: 30px;
+	}
+	.p-words{
+		width: 80%;
+		float:left;
+		height: 65px;
+		padding-left: 5px;
+		margin-bottom: 30px;
+		p{
+			font-size: 1.6em;
+			color: @page-color;
+			letter-spacing:@font-letterSpaceing;
+			line-height: 20px;
+		}
+	}
+	.p-date{
+		clear: both;
+		p{
+			font-size: 1.6em;
+		}
+	}
+	.p-prompt{
+		width: 95%;
+		p{
+			font-size: 1.4em;
+		}
+	}
+}

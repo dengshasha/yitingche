@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport" />
+    <!-- 引入 jQuery Mobile 样式 -->
+	<link rel="stylesheet" href="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="../css/normalize.css">
+	<link rel="stylesheet" href="../css/pc-childrenPage.css">
+	<title>常用停车场</title>
+</head>
+<body>
+<div data-role="page" class="cp-page">
+	<div data-role="main" class="ui-content">
+		<img src="../images/cp-icon.png" alt="" width="90px" height="90px">
+		<p>暂无停车场信息</p>
+		<a href="#dialog"><button class="button">添加停车场</button></a>
+	</div>
+</div>
+
+<!--start dialog-->
+<div data-role="page" data-dialog="true" id="dialog" class="cp-dialog">
+	<div data-role="header">
+		<p>添加常用停车场</p>
+	</div>
+	<div data-role="main" class="ui-content">
+		<span class="choose">请选择停车场:</span>
+		<form action="" method="post" id="cp-form" class="cp-form">
+			<select name="" id="#">
+				<option value="">川A345</option>
+				<option value="">川A256</option>
+				<option value="">川A12543</option>
+			</select>
+			<div class="cp-submit">
+				<input type="submit" value="确定" data-role="none">
+			</div>
+			<div class="cp-reset">
+				<input type="reset" value="取消" data-role="none">
+			</div>
+			
+		</form>
+	</div>
+</div>
+<!--end dialog-->
+</body>
+<!-- 引入 jQuery 库 -->
+	<script src="http://apps.bdimg.com/libs/jquery/1.10.2/jquery.min.js"></script>
+<!-- 引入 jQuery Mobile 库 -->
+	<script  src="http://apps.bdimg.com/libs/jquerymobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>	
+</html>

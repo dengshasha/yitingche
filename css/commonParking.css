@@ -1,0 +1,113 @@
+body {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+.cp-page {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /*设置我的停车券页面的使用规则文字样式*/
+}
+.cp-page img {
+  margin-top: 2.8em;
+}
+.cp-page p {
+  font-size: 1.6em;
+}
+.cp-page p.pt-rules-p {
+  text-align: left;
+  color: #016938;
+  font-size: 1.8em;
+}
+.cp-page p.pt-words {
+  text-align: left;
+}
+.cp-page .ui-btn.button {
+  width: 70%;
+  margin: 0.8em auto;
+  background: #008000;
+  letter-spacing: 2px;
+  text-shadow: none;
+  color: #fff;
+  font-size: 18px;
+}
+.cp-page .ui-btn.button:hover {
+  background: #016938;
+  color: #fff;
+  text-shadow: none;
+}
+/*设置对话框*/
+.ui-dialog-contain {
+  max-width: 300px;
+  margin-top: 20%;
+}
+.cp-dialog {
+  /*设置我的车辆页面的表单*/
+}
+.cp-dialog .ui-header {
+  height: 45px;
+  text-align: center;
+}
+.cp-dialog .ui-header p {
+  font-size: 1.6em;
+  margin: 0;
+  line-height: 45px;
+  font-weight: 300;
+}
+.cp-dialog span.choose {
+  font-size: 1.6em;
+}
+.cp-dialog form {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  /*设置选项框的宽度*/
+  /*设置两个按钮的宽度*/
+  /*设置选项框没有阴影*/
+  /*ui-input-btn是确定按钮的类名*/
+  /*设置选项框里的文字*/
+  /*设置我的车辆页面的弹出框的表单的文本框*/
+}
+.cp-dialog form .ui-select {
+  width: 70%;
+  margin: 20px auto;
+}
+.cp-dialog form .ui-btn-inline {
+  width: 70px;
+}
+.cp-dialog form .ui-shadow {
+  box-shadow: none;
+}
+.cp-dialog form .ui-input-btn input {
+  opacity: 1;
+  text-indent: 0;
+  font-size: 18px;
+  font-weight: 300;
+}
+.cp-dialog form .ui-btn,
+.cp-dialog form lable.ui-btn {
+  font-weight: 300;
+}
+.cp-dialog form [type="submit"],
+.cp-dialog form [type="reset"] {
+  background: #008000;
+  letter-spacing: 2px;
+  text-shadow: none;
+  color: #fff;
+  font-size: 18px;
+}
+.cp-dialog form [type="submit"]:hover,
+.cp-dialog form [type="reset"]:hover {
+  background: #016938;
+  color: #fff;
+  text-shadow: none;
+}
+.cp-dialog form .ui-input-text {
+  width: 70%;
+  margin: 20px auto;
+}
+.cp-dialog form [type="text"] {
+  font-size: 1.6em;
+}

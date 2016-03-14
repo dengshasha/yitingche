@@ -1,0 +1,259 @@
+body {
+  font-size: 62.5%;
+}
+a {
+  text-decoration: none;
+}
+.cp-page,
+.mc-page {
+  width: 100%;
+  height: auto;
+  text-align: center;
+  /*设置我的停车券页面的使用规则文字样式*/
+}
+.cp-page img,
+.mc-page img {
+  margin-top: 2.8em;
+}
+.cp-page p,
+.mc-page p {
+  font-size: 1.6em;
+}
+.cp-page p.pt-rules-p,
+.mc-page p.pt-rules-p {
+  text-align: left;
+  color: #016938;
+  font-size: 1.8em;
+}
+.cp-page p.pt-words,
+.mc-page p.pt-words {
+  text-align: left;
+}
+.cp-page .ui-btn.button,
+.mc-page .ui-btn.button {
+  width: 80%;
+  margin: 0.8em auto;
+  background: #008000;
+  letter-spacing: 2px;
+  text-shadow: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 300;
+  border-radius: 0.8em;
+}
+.cp-page .ui-btn.button:hover,
+.mc-page .ui-btn.button:hover {
+  background: #016938;
+  color: #fff;
+  text-shadow: none;
+}
+/*设置对话框常用停车场，我的车辆*/
+.ui-dialog-contain {
+  max-width: 300px;
+  margin-top: 20%;
+}
+.cp-dialog,
+.mc-dialog {
+  /*设置我的车辆页面的表单*/
+}
+.cp-dialog .ui-header,
+.mc-dialog .ui-header {
+  height: 45px;
+  text-align: center;
+}
+.cp-dialog .ui-header p,
+.mc-dialog .ui-header p {
+  font-size: 1.6em;
+  margin: 0;
+  line-height: 45px;
+  font-weight: 300;
+}
+.cp-dialog span.choose,
+.mc-dialog span.choose {
+  font-size: 1.6em;
+  /*设置我的车辆页面的弹出框的表单的文本框*/
+}
+.cp-dialog span.choose .ui-input-text,
+.mc-dialog span.choose .ui-input-text {
+  width: 70%;
+  margin: 20px auto;
+}
+.cp-dialog span.choose [type="text"],
+.mc-dialog span.choose [type="text"] {
+  font-size: 1.6em;
+}
+.cp-dialog form.mycar-form,
+.mc-dialog form.mycar-form,
+.cp-dialog .cp-form,
+.mc-dialog .cp-form {
+  width: 100%;
+  margin: 10px auto;
+  text-align: center;
+  /*设置选项框的宽度*/
+  /*设置选项框里的文字*/
+  /*设置两个按钮*/
+}
+.cp-dialog form.mycar-form .ui-input-text,
+.mc-dialog form.mycar-form .ui-input-text,
+.cp-dialog .cp-form .ui-input-text,
+.mc-dialog .cp-form .ui-input-text {
+  width: 70%;
+  margin: 0 auto;
+  font-size: 1.6em;
+}
+.cp-dialog form.mycar-form .ui-select,
+.mc-dialog form.mycar-form .ui-select,
+.cp-dialog .cp-form .ui-select,
+.mc-dialog .cp-form .ui-select {
+  width: 70%;
+  margin: 20px auto;
+}
+.cp-dialog form.mycar-form .ui-shadow,
+.mc-dialog form.mycar-form .ui-shadow,
+.cp-dialog .cp-form .ui-shadow,
+.mc-dialog .cp-form .ui-shadow {
+  box-shadow: none;
+}
+.cp-dialog form.mycar-form .ui-btn,
+.mc-dialog form.mycar-form .ui-btn,
+.cp-dialog .cp-form .ui-btn,
+.mc-dialog .cp-form .ui-btn,
+.cp-dialog form.mycar-form lable.ui-btn,
+.mc-dialog form.mycar-form lable.ui-btn,
+.cp-dialog .cp-form lable.ui-btn,
+.mc-dialog .cp-form lable.ui-btn {
+  font-weight: 300;
+}
+.cp-dialog form.mycar-form .mc-submit,
+.mc-dialog form.mycar-form .mc-submit,
+.cp-dialog .cp-form .mc-submit,
+.mc-dialog .cp-form .mc-submit,
+.cp-dialog form.mycar-form .mc-reset,
+.mc-dialog form.mycar-form .mc-reset,
+.cp-dialog .cp-form .mc-reset,
+.mc-dialog .cp-form .mc-reset,
+.cp-dialog form.mycar-form .cp-submit,
+.mc-dialog form.mycar-form .cp-submit,
+.cp-dialog .cp-form .cp-submit,
+.mc-dialog .cp-form .cp-submit,
+.cp-dialog form.mycar-form .cp-reset,
+.mc-dialog form.mycar-form .cp-reset,
+.cp-dialog .cp-form .cp-reset,
+.mc-dialog .cp-form .cp-reset {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.cp-dialog form.mycar-form .mc-submit [type="submit"],
+.mc-dialog form.mycar-form .mc-submit [type="submit"],
+.cp-dialog .cp-form .mc-submit [type="submit"],
+.mc-dialog .cp-form .mc-submit [type="submit"],
+.cp-dialog form.mycar-form .mc-reset [type="submit"],
+.mc-dialog form.mycar-form .mc-reset [type="submit"],
+.cp-dialog .cp-form .mc-reset [type="submit"],
+.mc-dialog .cp-form .mc-reset [type="submit"],
+.cp-dialog form.mycar-form .cp-submit [type="submit"],
+.mc-dialog form.mycar-form .cp-submit [type="submit"],
+.cp-dialog .cp-form .cp-submit [type="submit"],
+.mc-dialog .cp-form .cp-submit [type="submit"],
+.cp-dialog form.mycar-form .cp-reset [type="submit"],
+.mc-dialog form.mycar-form .cp-reset [type="submit"],
+.cp-dialog .cp-form .cp-reset [type="submit"],
+.mc-dialog .cp-form .cp-reset [type="submit"],
+.cp-dialog form.mycar-form .mc-submit [type="reset"],
+.mc-dialog form.mycar-form .mc-submit [type="reset"],
+.cp-dialog .cp-form .mc-submit [type="reset"],
+.mc-dialog .cp-form .mc-submit [type="reset"],
+.cp-dialog form.mycar-form .mc-reset [type="reset"],
+.mc-dialog form.mycar-form .mc-reset [type="reset"],
+.cp-dialog .cp-form .mc-reset [type="reset"],
+.mc-dialog .cp-form .mc-reset [type="reset"],
+.cp-dialog form.mycar-form .cp-submit [type="reset"],
+.mc-dialog form.mycar-form .cp-submit [type="reset"],
+.cp-dialog .cp-form .cp-submit [type="reset"],
+.mc-dialog .cp-form .cp-submit [type="reset"],
+.cp-dialog form.mycar-form .cp-reset [type="reset"],
+.mc-dialog form.mycar-form .cp-reset [type="reset"],
+.cp-dialog .cp-form .cp-reset [type="reset"],
+.mc-dialog .cp-form .cp-reset [type="reset"] {
+  width: 70%;
+  padding: 0.6em 0;
+  background: #008000;
+  letter-spacing: 2px;
+  color: #fff;
+  font-size: 1.6em;
+  border: 0;
+  border-radius: 1.2em;
+  margin: 1.5em auto;
+}
+.cp-dialog form.mycar-form .mc-submit [type="submit"]:hover,
+.mc-dialog form.mycar-form .mc-submit [type="submit"]:hover,
+.cp-dialog .cp-form .mc-submit [type="submit"]:hover,
+.mc-dialog .cp-form .mc-submit [type="submit"]:hover,
+.cp-dialog form.mycar-form .mc-reset [type="submit"]:hover,
+.mc-dialog form.mycar-form .mc-reset [type="submit"]:hover,
+.cp-dialog .cp-form .mc-reset [type="submit"]:hover,
+.mc-dialog .cp-form .mc-reset [type="submit"]:hover,
+.cp-dialog form.mycar-form .cp-submit [type="submit"]:hover,
+.mc-dialog form.mycar-form .cp-submit [type="submit"]:hover,
+.cp-dialog .cp-form .cp-submit [type="submit"]:hover,
+.mc-dialog .cp-form .cp-submit [type="submit"]:hover,
+.cp-dialog form.mycar-form .cp-reset [type="submit"]:hover,
+.mc-dialog form.mycar-form .cp-reset [type="submit"]:hover,
+.cp-dialog .cp-form .cp-reset [type="submit"]:hover,
+.mc-dialog .cp-form .cp-reset [type="submit"]:hover,
+.cp-dialog form.mycar-form .mc-submit [type="reset"]:hover,
+.mc-dialog form.mycar-form .mc-submit [type="reset"]:hover,
+.cp-dialog .cp-form .mc-submit [type="reset"]:hover,
+.mc-dialog .cp-form .mc-submit [type="reset"]:hover,
+.cp-dialog form.mycar-form .mc-reset [type="reset"]:hover,
+.mc-dialog form.mycar-form .mc-reset [type="reset"]:hover,
+.cp-dialog .cp-form .mc-reset [type="reset"]:hover,
+.mc-dialog .cp-form .mc-reset [type="reset"]:hover,
+.cp-dialog form.mycar-form .cp-submit [type="reset"]:hover,
+.mc-dialog form.mycar-form .cp-submit [type="reset"]:hover,
+.cp-dialog .cp-form .cp-submit [type="reset"]:hover,
+.mc-dialog .cp-form .cp-submit [type="reset"]:hover,
+.cp-dialog form.mycar-form .cp-reset [type="reset"]:hover,
+.mc-dialog form.mycar-form .cp-reset [type="reset"]:hover,
+.cp-dialog .cp-form .cp-reset [type="reset"]:hover,
+.mc-dialog .cp-form .cp-reset [type="reset"]:hover {
+  background: #016938;
+  color: #fff;
+  border: 0;
+}
+/*我的预定*/
+.myreserve {
+  width: 98%;
+}
+.myreserve .p-icon {
+  height: 65px;
+  width: 15%;
+  float: left;
+  margin-bottom: 30px;
+}
+.myreserve .p-words {
+  width: 80%;
+  float: left;
+  height: 65px;
+  padding-left: 5px;
+  margin-bottom: 30px;
+}
+.myreserve .p-words p {
+  font-size: 1.6em;
+  color: #016938;
+  letter-spacing: 1px;
+  line-height: 20px;
+}
+.myreserve .p-date {
+  clear: both;
+}
+.myreserve .p-date p {
+  font-size: 1.6em;
+}
+.myreserve .p-prompt {
+  width: 95%;
+}
+.myreserve .p-prompt p {
+  font-size: 1.4em;
+}
